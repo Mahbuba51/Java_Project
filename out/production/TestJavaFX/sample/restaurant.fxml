@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #e7dc76;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.restaurantController">
+   <children>
+      <Label layoutX="153.0" layoutY="42.0" text="Restaurant Searching Options">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="restaurantName" layoutX="101.0" layoutY="98.0" mnemonicParsing="false" onAction="#restaurantSearchByName" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: black;" text="By Name" textFill="#dbedff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="restaurantScore" layoutX="101.0" layoutY="174.0" mnemonicParsing="false" onAction="#restaurantSearchByScore" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: black;" text=" By Score" textFill="#dbedff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="restaurantCategory" layoutX="101.0" layoutY="246.0" mnemonicParsing="false" onAction="#restaurantSearchByCategory" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: black;" text="By Category" textFill="#dbedff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="restaurantPrice" layoutX="403.0" layoutY="98.0" mnemonicParsing="false" onAction="#restaurantSearchByPrice" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: black;" text="By Price" textFill="#dbedff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="zipCode" layoutX="403.0" layoutY="174.0" mnemonicParsing="false" onAction="#restaurantSearchByZipode" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: black;" text="By Zip Code" textFill="#dbedff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="categoryWiseList" layoutX="403.0" layoutY="246.0" mnemonicParsing="false" onAction="#restaurantCategoryWiseList" style="-fx-background-color: black;" text="Category Wise List" textFill="#dbedff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="mainMenu" layoutX="218.0" layoutY="327.0" mnemonicParsing="false" onAction="#goToMainMenu" style="-fx-background-color: black;" text="Go Back To Main Menu" textFill="#dbedff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

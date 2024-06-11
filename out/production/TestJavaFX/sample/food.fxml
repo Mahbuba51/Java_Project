@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #e7dc76;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.foodController">
+   <children>
+      <Label layoutX="147.0" layoutY="25.0" text="Food Item Searching Options">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="foodName" layoutX="77.0" layoutY="85.0" mnemonicParsing="false" onAction="#foodSearchByName" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: black;" text="By Name" textFill="#dbedff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="restaurantFoodName" layoutX="322.0" layoutY="85.0" mnemonicParsing="false" onAction="#foodNameSearchByRestaurant" style="-fx-background-color: black;" text="By Name In A Given Restaurant" textFill="#dbedff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="foodCategory" layoutX="77.0" layoutY="130.0" mnemonicParsing="false" onAction="#foodSearchByCategory" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: black;" text="By Category" textFill="#dbedff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="restaurantFoodCategory" layoutX="322.0" layoutY="130.0" mnemonicParsing="false" onAction="#foodCategorySearchByRestaurant" prefHeight="29.0" style="-fx-background-color: black;" text="By Category In A Given Restaurant" textFill="#dbedff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="priceRange" layoutX="77.0" layoutY="174.0" mnemonicParsing="false" onAction="#foodSearchByPrice" prefHeight="25.0" style="-fx-background-color: black;" text="By Price Range" textFill="#dbedff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="restaurantFoodPrice" layoutX="324.0" layoutY="174.0" mnemonicParsing="false" onAction="#foodPriceSearchByRestaurant" style="-fx-background-color: black;" text="By Price Range In A Given Restaurant" textFill="#dbedff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="77.0" layoutY="273.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Costliest Food Item(s) on the Menu in a Given Restaurant" textFill="#dbedff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="listOfRestaurants" layoutX="77.0" layoutY="225.0" mnemonicParsing="false" onAction="#listOfRestaurants" style="-fx-background-color: black;" text="List of Restaurants and Total Food Item on the Menu" textFill="#dbedff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="mainMenu" layoutX="218.0" layoutY="349.0" mnemonicParsing="false" onAction="#goToMainMenu" prefHeight="25.0" style="-fx-background-color: black;" text="Go Back To Main Menu" textFill="#dbedff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
