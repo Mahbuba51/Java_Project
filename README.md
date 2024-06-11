@@ -32,23 +32,35 @@ The server is the backbone of the application, handling all client and restauran
 ### Running the Server
 1. Navigate to the server directory in your terminal.
 2. Compile the server code:
+   ```sh
    javac Server.java
+   ```
 3. Run the server:
+   ```sh
    java Server
+   ```
 
 ### Running the Restaurant Console
 1. Navigate to the restaurant directory in your terminal.
 2. Compile the restaurant console code:
+   ```sh
    javac RestaurantAdmin.java
-3. Run the restaurant console
+   ```
+3. Run the restaurant console:
+   ```sh
    java RestaurantAdmin
+   ```
 
 ### Running the Client Console
 1. Navigate to the client directory in your terminal.
 2. Compile the client console code:
+   ```sh
    javac Client.java
+   ```
 3. Run the client console:
+   ```sh
    java Client
+   ```
 
 ## Technologies Used
 
@@ -59,6 +71,3 @@ The server is the backbone of the application, handling all client and restauran
 ## Contributions
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to create a pull request or open an issue.
-```
-
-This version removes the licensing section. Feel free to add any additional details specific to your project as needed!
